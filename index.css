@@ -1,0 +1,37 @@
+.maindiv{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  font-size: 25px;
+  padding: 20px;
+}
+
+
+button{
+  height: 20px;
+  background-color:hsl(170, 75%, 73%);
+  color: white;
+ }
+
+ .colorgen{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ input.error{
+  border-color: red;
+ }
+ .seconddiv{
+  display: grid;
+  grid-template-columns:repeat(4, 1fr) ;
+    } 
+
+ article{
+    height: 100px;
+   }
+
+   .color-light{
+    color: white;
+   }
+
+   
